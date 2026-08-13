@@ -1,0 +1,31 @@
+<svg width="820" height="620" viewBox="0 0 820 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="820" height="620" rx="28" fill="#F7FAFF"/>
+<rect x="36" y="402" width="748" height="152" rx="22" fill="#E6F3ED"/>
+<path d="M35 438C116 393 214 381 331 419C420 448 516 486 614 466C677 453 726 424 785 408V558H35V438Z" fill="#C8EBDD"/>
+<circle cx="135" cy="98" r="34" fill="#FFF2B5"/>
+<path d="M521 412C556 382 602 382 639 412H521Z" fill="#FFFFFF"/>
+<path d="M528 410H633V343H528V410Z" fill="#FFFFFF"/>
+<path d="M522 343H639L580 299L522 343Z" fill="#FFAA70"/>
+<circle cx="294" cy="210" r="58" fill="#A76B4F"/>
+<path d="M242 206C247 172 272 149 294 149C319 149 337 171 344 206H242Z" fill="#4B2D1E"/>
+<rect x="223" y="266" width="146" height="160" rx="44" fill="#FFB36B"/>
+<rect x="245" y="416" width="35" height="116" rx="17.5" fill="#34415F"/>
+<rect x="311" y="416" width="35" height="116" rx="17.5" fill="#34415F"/>
+<rect x="240" y="525" width="48" height="18" rx="9" fill="#202C47"/>
+<rect x="303" y="525" width="48" height="18" rx="9" fill="#202C47"/>
+<rect x="171" y="319" width="44" height="116" rx="22" fill="#A76B4F"/>
+<rect x="378" y="321" width="44" height="108" rx="22" fill="#A76B4F"/>
+<rect x="390" y="290" width="240" height="140" rx="14" fill="#DDE8FF" stroke="#B9CBF4" stroke-width="4"/>
+<rect x="435" y="325" width="150" height="74" rx="10" fill="#FFFFFF"/>
+<circle cx="474" cy="362" r="23" fill="#EAF0FF"/>
+<circle cx="535" cy="362" r="23" fill="#E8F8F2"/>
+<circle cx="596" cy="362" r="23" fill="#FFF0EE"/>
+<rect x="440" y="437" width="140" height="12" rx="6" fill="#6D7891"/>
+<rect x="370" y="449" width="280" height="18" rx="9" fill="#9AA7C3"/>
+<rect x="88" y="134" width="208" height="84" rx="18" fill="#FFFFFF" stroke="#DFE6F3" stroke-width="3"/>
+<circle cx="138" cy="176" r="22" fill="#EAF0FF"/>
+<path d="M128 168H148V183H128V168Z" fill="#2F5BEA"/>
+<path d="M152 170L166 164V187L152 181V170Z" fill="#2F5BEA"/>
+<text x="183" y="170" fill="#17213A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Join on laptop</text>
+<text x="183" y="197" fill="#63708A" font-family="Arial, sans-serif" font-size="16">Better collaboration</text>
+</svg>

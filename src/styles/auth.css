@@ -1,0 +1,539 @@
+/* MeetGate login page */
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(47, 99, 233, 0.18),
+      transparent 35%
+    ),
+    linear-gradient(135deg, #071426, #0d2342);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 470px;
+  padding: 45px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
+}
+
+.login-logo {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #2563eb;
+  font-size: 1.45rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.login-heading {
+  margin-bottom: 30px;
+}
+
+.login-heading span {
+  display: block;
+  margin-bottom: 8px;
+  color: #2563eb;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.login-heading h1 {
+  margin: 0 0 12px;
+  color: #10213b;
+  font-size: 2.2rem;
+  line-height: 1.15;
+}
+
+.login-heading p {
+  margin: 0;
+  color: #6b7890;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-field label {
+  color: #1d2b42;
+  font-size: 0.83rem;
+  font-weight: 800;
+}
+
+.login-field input {
+  width: 100%;
+  min-height: 54px;
+  padding: 0 16px;
+  border: 1px solid #d9dfeb;
+  border-radius: 13px;
+  outline: none;
+  color: #10213b;
+  background: #ffffff;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.login-field input::placeholder {
+  color: #9aa5b7;
+}
+
+.login-field input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.login-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #65728a;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.remember-me input {
+  width: 16px;
+  height: 16px;
+  accent-color: #2563eb;
+}
+
+.login-options a {
+  color: #2563eb;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 100%;
+  min-height: 54px;
+  border: none;
+  border-radius: 13px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #3677f5, #1d4ed8);
+  font-size: 0.95rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 13px 28px rgba(37, 99, 235, 0.28);
+  transition: 0.2s ease;
+}
+
+.login-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 17px 34px rgba(37, 99, 235, 0.36);
+}
+
+.login-register {
+  margin: 28px 0 0;
+  color: #6b7890;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.login-register a {
+  color: #2563eb;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@media (max-width: 550px) {
+  .login-page {
+    padding: 25px 15px;
+  }
+
+  .login-card {
+    padding: 35px 24px;
+    border-radius: 19px;
+  }
+
+  .login-heading h1 {
+    font-size: 1.85rem;
+  }
+
+  .login-options {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+/* MeetGate registration page */
+
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(47, 99, 233, 0.2),
+      transparent 35%
+    ),
+    linear-gradient(135deg, #071426, #0d2342);
+}
+
+.register-card {
+  width: 100%;
+  max-width: 650px;
+  padding: 45px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
+}
+
+.register-logo {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #2563eb;
+  font-size: 1.45rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.register-heading {
+  margin-bottom: 30px;
+}
+
+.register-heading span {
+  display: block;
+  margin-bottom: 8px;
+  color: #2563eb;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.register-heading h1 {
+  margin: 0 0 12px;
+  color: #10213b;
+  font-size: 2.2rem;
+  line-height: 1.15;
+}
+
+.register-heading p {
+  margin: 0;
+  color: #6b7890;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-name-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.register-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.register-field label {
+  color: #1d2b42;
+  font-size: 0.83rem;
+  font-weight: 800;
+}
+
+.register-field input,
+.register-field select {
+  width: 100%;
+  min-height: 54px;
+  padding: 0 16px;
+  border: 1px solid #d9dfeb;
+  border-radius: 13px;
+  outline: none;
+  color: #10213b;
+  background: #ffffff;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.register-field input::placeholder {
+  color: #9aa5b7;
+}
+
+.register-field input:focus,
+.register-field select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.register-field select {
+  cursor: pointer;
+}
+
+.register-terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #65728a;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.register-terms input {
+  width: 17px;
+  height: 17px;
+  margin-top: 3px;
+  accent-color: #2563eb;
+}
+
+.register-button {
+  width: 100%;
+  min-height: 54px;
+  border: none;
+  border-radius: 13px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #3677f5, #1d4ed8);
+  font-size: 0.95rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 13px 28px rgba(37, 99, 235, 0.28);
+  transition: 0.2s ease;
+}
+
+.register-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 17px 34px rgba(37, 99, 235, 0.36);
+}
+
+.register-login {
+  margin: 28px 0 0;
+  color: #6b7890;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.register-login a {
+  color: #2563eb;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  .register-page {
+    padding: 25px 15px;
+  }
+
+  .register-card {
+    padding: 35px 24px;
+    border-radius: 19px;
+  }
+
+  .register-name-row {
+    grid-template-columns: 1fr;
+  }
+
+  .register-heading h1 {
+    font-size: 1.85rem;
+  }
+}
+/* Form validation messages */
+
+.form-error {
+  display: block;
+  margin-top: 2px;
+  color: #dc2626;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.form-success {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+  color: #15803d;
+  background: #f0fdf4;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.login-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+  transform: none;
+}
+
+/* MeetGate mobile verification */
+
+.verify-mobile-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background:
+    radial-gradient(circle at top left, rgba(47, 99, 233, 0.18), transparent 35%),
+    linear-gradient(135deg, #071426, #0d2342);
+}
+
+.verify-mobile-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 45px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
+}
+
+.verify-mobile-heading {
+  margin-bottom: 28px;
+}
+
+.verify-mobile-heading span {
+  display: block;
+  margin-bottom: 8px;
+  color: #2563eb;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.verify-mobile-heading h1 {
+  margin: 0 0 12px;
+  color: #10213b;
+  font-size: 2.1rem;
+}
+
+.verify-mobile-heading p {
+  margin: 0;
+  color: #6b7890;
+  line-height: 1.7;
+}
+
+.verify-mobile-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.verify-mobile-field label {
+  color: #1d2b42;
+  font-size: 0.83rem;
+  font-weight: 800;
+}
+
+.verify-mobile-field input {
+  width: 100%;
+  min-height: 54px;
+  padding: 0 16px;
+  border: 1px solid #d9dfeb;
+  border-radius: 13px;
+  outline: none;
+  color: #10213b;
+  background: #ffffff;
+  font-size: 0.95rem;
+}
+
+.verify-mobile-field input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.verify-mobile-form {
+  margin-top: 20px;
+}
+
+.verify-mobile-primary,
+.verify-mobile-secondary {
+  width: 100%;
+  min-height: 52px;
+  border-radius: 13px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.verify-mobile-primary {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(135deg, #3677f5, #1d4ed8);
+}
+
+.verify-mobile-secondary {
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  background: #eff6ff;
+}
+
+.verify-mobile-primary:disabled,
+.verify-mobile-secondary:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+/* Google Identity Services */
+
+.google-auth-area {
+  margin-top: 24px;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+  color: #8a96aa;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e2e8f0;
+}
+
+.google-auth-button {
+  display: flex;
+  justify-content: center;
+  min-height: 44px;
+}
+
+.google-auth-note {
+  margin: 10px 0 0;
+  color: #7a879a;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-align: center;
+}

@@ -1,0 +1,272 @@
+@media (max-width: 1080px) {
+  .main-nav {
+    gap: 20px;
+  }
+
+  .main-nav a {
+    font-size: 0.84rem;
+  }
+
+  .hero-grid,
+  .community-grid,
+  .workflow-grid,
+  .security-grid,
+  .faq-grid {
+    gap: 55px;
+  }
+
+  .technology-row {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-nav {
+    position: fixed;
+    top: 81px;
+    right: 0;
+    left: 0;
+    display: flex;
+    visibility: hidden;
+    min-height: calc(100vh - 81px);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 20px;
+    opacity: 0;
+    background: white;
+    transform: translateY(-12px);
+    transition: opacity var(--transition), transform var(--transition),
+      visibility var(--transition);
+  }
+
+  .main-nav.open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .main-nav a {
+    width: 100%;
+    padding: 11px 0;
+    font-size: 1rem;
+  }
+
+  .main-nav .nav-button {
+    width: auto;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero-grid,
+  .community-grid,
+  .workflow-grid,
+  .security-grid,
+  .faq-grid,
+  .join-panel,
+  .objective-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    width: min(100%, 650px);
+    margin: 0 auto;
+  }
+
+  .visual-shell {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .status-card-left {
+    left: 0;
+  }
+
+  .status-card-right {
+    right: 0;
+  }
+
+  .partner-strip {
+    flex-wrap: wrap;
+    gap: 18px 28px;
+  }
+
+  .overview-grid,
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .split-heading {
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .workflow-intro,
+  .faq-intro {
+    position: static;
+  }
+
+  .community-content {
+    text-align: center;
+  }
+
+  .community-content p {
+    margin-inline: auto;
+  }
+
+  .device-points {
+    max-width: 650px;
+    margin-inline: auto;
+  }
+
+  .security-visual {
+    min-height: 440px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(calc(100% - 28px), var(--container));
+  }
+
+  .section {
+    padding: 82px 0;
+  }
+
+  h1 {
+    font-size: clamp(2.7rem, 14vw, 4.2rem);
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  .brand-copy small {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 65px;
+  }
+
+  .hero-actions,
+  .join-row {
+    flex-direction: column;
+  }
+
+  .button,
+  .join-row button {
+    width: 100%;
+  }
+
+  .hero-proof {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-proof div {
+    padding: 12px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .hero-proof div:last-child {
+    border-bottom: 0;
+  }
+
+  .hero-visual {
+    min-height: 430px;
+  }
+
+  .visual-shell {
+    border-radius: 20px;
+  }
+
+  .status-card {
+    display: none;
+  }
+
+  .partner-strip {
+    justify-content: flex-start;
+  }
+
+  .overview-grid,
+  .feature-grid,
+  .objective-list,
+  .architecture-flow,
+  .security-list {
+    grid-template-columns: 1fr;
+  }
+
+  .objective-panel,
+  .join-panel {
+    padding: 30px 22px;
+    border-radius: 24px;
+  }
+
+  .overview-card {
+    min-height: auto;
+  }
+
+  .device-showcase {
+    min-height: auto;
+  }
+
+  .device-card-phone,
+  .device-card-laptop {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    margin-bottom: 18px;
+    transform: none;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+  }
+
+  .security-orbit {
+    width: 280px;
+    height: 280px;
+  }
+
+  .footer-links {
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .home-button {
+    right: 14px;
+    bottom: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
