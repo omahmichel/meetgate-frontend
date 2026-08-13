@@ -1,6 +1,8 @@
 import { authenticatedFetch } from "./apiClient";
 
-const MEETINGS_API_URL = "http://127.0.0.1:8000/api/meetings/";
+import { API_ROOT } from "./config";
+
+const MEETINGS_API_URL = `${API_ROOT}/api/meetings/`;
 
 async function handleResponse(response) {
   if (response.status === 204) {

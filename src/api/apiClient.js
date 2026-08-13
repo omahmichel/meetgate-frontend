@@ -1,4 +1,6 @@
-const TOKEN_REFRESH_URL = "http://127.0.0.1:8000/api/accounts/token/refresh/";
+import { API_ROOT } from "./config";
+
+const TOKEN_REFRESH_URL = `${API_ROOT}/api/accounts/token/refresh/`;
 
 let refreshPromise = null;
 

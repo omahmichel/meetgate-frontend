@@ -1,6 +1,8 @@
 import { authenticatedFetch } from "./apiClient";
 
-const ZOOM_API_URL = "http://127.0.0.1:8000/api/zoom";
+import { API_ROOT } from "./config";
+
+const ZOOM_API_URL = `${API_ROOT}/api/zoom`;
 
 async function handleResponse(response) {
   const contentType = response.headers.get("content-type") || "";

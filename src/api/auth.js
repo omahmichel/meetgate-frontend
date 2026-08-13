@@ -1,4 +1,6 @@
-const API_BASE_URL = "http://127.0.0.1:8000/api/accounts";
+import { API_ROOT } from "./config";
+
+const API_BASE_URL = `${API_ROOT}/api/accounts`;
 
 async function handleResponse(response) {
   const data = await response.json();
